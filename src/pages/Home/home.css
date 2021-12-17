@@ -1,0 +1,27 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  .boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+  }
+  .box{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: fit-content;
+  }
+}
+@media (min-width: 769px) and (max-width: 1500px) {
+  .boxes {
+    display: flex;
+    /* flex-direction: row; */
+  }
+  .box {
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+  }
+}

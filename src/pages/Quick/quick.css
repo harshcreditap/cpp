@@ -1,0 +1,15 @@
+.pan{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+.pan>label{
+    margin-right: 1rem;
+}
+.bt{
+    display: flex;  
+    justify-content: space-around;
+
+    align-items: center;
+}
